@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="个人作品集网站，展示设计与前端开发作品、技能与经历。"
+    />
+    <title>Lily Chen | Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="回到首页">
+          <span class="brand-mark">L</span>
+          <span>Lily Chen</span>
+        </a>
+
+        <nav class="nav" aria-label="主导航">
+          <a href="#about">关于</a>
+          <a href="#work">作品</a>
+          <a href="#experience">经历</a>
+          <a href="#skills">技能</a>
+          <a href="#contact">联系</a>
+        </nav>
+
+        <a class="button button-primary" href="#contact">联系我</a>
+      </header>
+
+      <main id="home">
+        <section class="hero section">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Product Designer × Frontend Developer</p>
+            <h1>设计清晰思路，构建让人愿意停留的产品。</h1>
+            <p class="lead">
+              我是 Lily，一名专注于用户体验与界面设计的创作者。擅长把复杂想法
+              转化成清晰、有感染力的数字产品，并把设计落地成高质量的前端体验。
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">查看作品</a>
+              <a class="button button-secondary" href="#about">关于我</a>
+            </div>
+
+            <ul class="meta-list" aria-label="个人简介信息">
+              <li><strong>6+</strong> 年经验</li>
+              <li><strong>20+</strong> 项作品</li>
+              <li><strong>9</strong> 个行业案例</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="orb orb-one"></div>
+            <div class="orb orb-two"></div>
+
+            <div class="profile-card glass">
+              <div class="card-top">
+                <span class="status-dot"></span>
+                <span>Available for work</span>
+              </div>
+
+              <div class="avatar-wrap">
+                <div class="avatar">LC</div>
+              </div>
+
+              <div class="profile-info">
+                <h2>Lily Chen</h2>
+                <p>Designing product clarity.</p>
+              </div>
+
+              <div class="mini-stats">
+                <div>
+                  <strong>92%</strong>
+                  <span>为用户带来更好体验</span>
+                </div>
+                <div>
+                  <strong>4.9/5</strong>
+                  <span>用户反馈满意度</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-card glass tint-rose">
+              <span class="label">Impact</span>
+              <strong>+38%</strong>
+              <small>用户参与度提升</small>
+            </div>
+
+            <div class="floating-card glass tint-blue">
+              <span class="label">Focus</span>
+              <strong>UX / UI</strong>
+              <small>Product Design</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="logo-strip reveal" aria-label="合作平台">
+          <span>Notion</span>
+          <span>Figma</span>
+          <span>Webflow</span>
+          <span>React</span>
+          <span>Stripe</span>
+        </section>
+
+        <section id="about" class="section about-grid reveal">
+          <div class="section-heading">
+            <p class="eyebrow">关于我</p>
+            <h2>让界面既让人看见，也让人愿意使用。</h2>
+          </div>
+
+          <div class="about-copy">
+            <p>
+              我曾在创业团队、数字产品工作室和 B2B SaaS 团队中工作，负责产品
+              设计、交互设计和前端实现。从品牌视角到功能细节，我都重视“清晰的
+              信息结构”和“真实的使用体验”。
+            </p>
+            <p>
+              热衷于解决决策压力大的产品问题，尤其是复杂系统中的简化设计。通过
+              原型验证、数据反馈和迭代优化，让产品在视觉上精致、在交互上顺畅、
+              在业务上有效。
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card glass">
+              <strong>7</strong>
+              <span>年产品设计实践</span>
+            </div>
+            <div class="stat-card glass">
+              <strong>30+</strong>
+              <span>原型和设计系统</span>
+            </div>
+            <div class="stat-card glass">
+              <strong>15k+</strong>
+              <span>用户研究反馈</span>
+            </div>
+            <div class="stat-card glass">
+              <strong>3x</strong>
+              <span>跨职能协作效率</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">作品精选</p>
+            <h2>我做过的设计与产品项目</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card glass reveal">
+              <div class="project-visual visual-one"></div>
+              <div class="project-body">
+                <div class="project-topline">
+                  <span>Fintech</span>
+                  <span>2025</span>
+                </div>
+                <h3>NovaPay 账户规划平台</h3>
+                <p>
+                  重构企业收付款后台，优化复杂流程的导航与决策结构，使操作效率提升
+                  40%，用户反馈显著改善。
+                </p>
+                <ul class="tag-list">
+                  <li>UX Strategy</li>
+                  <li>UI Design</li>
+                  <li>React</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card glass reveal">
+              <div class="project-visual visual-two"></div>
+              <div class="project-body">
+                <div class="project-topline">
+                  <span>HealthTech</span>
+                  <span>2024</span>
+                </div>
+                <h3>BloomCare 健康管理应用</h3>
+                <p>
+                  为慢病管理场景设计清晰的日程、提醒和指标看板，让用户更容易坚持和
+                  参与长期护理计划。
+                </p>
+                <ul class="tag-list">
+                  <li>Mobile UX</li>
+                  <li>Research</li>
+                  <li>Design System</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card glass reveal">
+              <div class="project-visual visual-three"></div>
+              <div class="project-body">
+                <div class="project-topline">
+                  <span>SaaS</span>
+                  <span>2023</span>
+                </div>
+                <h3>FlowBoard 团队协作仪表盘</h3>
+                <p>
+                  设计数据可视化与任务管理聚合页面，帮助团队在一屏内获取关键信息并做
+                  更快决策。
+                </p>
+                <ul class="tag-list">
+                  <li>Dashboard</li>
+                  <li>Interaction</li>
+                  <li>Prototyping</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">经验</p>
+            <h2>我在不同阶段带来变化</h2>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="timeline-item glass">
+              <span class="time">2023 — 现在</span>
+              <div>
+                <h3>Senior Product Designer</h3>
+                <p>负责平台级体验设计与设计系统升级，推动跨团队协作效率提升。</p>
+              </div>
+            </div>
+
+            <div class="timeline-item glass">
+              <span class="time">2021 — 2023</span>
+              <div>
+                <h3>UI/UX Designer</h3>
+                <p>为数字化工具和消费产品提供交互设计、视觉体系和前端协作支持。</p>
+              </div>
+            </div>
+
+            <div class="timeline-item glass">
+              <span class="time">2019 — 2021</span>
+              <div>
+                <h3>Visual Designer</h3>
+                <p>参与品牌视觉、内容设计与产品界面的整体验设计，建立设计思维与流程。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">技能</p>
+            <h2>我擅长的能力组合</h2>
+          </div>
+
+          <div class="skills-grid reveal">
+            <div class="skill-card glass">
+              <h3>设计</h3>
+              <ul>
+                <li>UX Research</li>
+                <li>Interaction Design</li>
+                <li>Design Systems</li>
+                <li>Prototyping</li>
+              </ul>
+            </div>
+
+            <div class="skill-card glass">
+              <h3>开发</h3>
+              <ul>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Responsive UI</li>
+              </ul>
+            </div>
+
+            <div class="skill-card glass">
+              <h3>工具</h3>
+              <ul>
+                <li>Figma</li>
+                <li>FigJam</li>
+                <li>Notion</li>
+                <li>Framer</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-panel reveal">
+          <div>
+            <p class="eyebrow">联系</p>
+            <h2>欢迎合作与交流</h2>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:hello@lilychen.design">hello@lilychen.design</a>
+            <a class="button button-secondary" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Lily Chen. Crafted with intention.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
