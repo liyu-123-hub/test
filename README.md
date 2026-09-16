@@ -1,4 +1,4 @@
-# Lily Chen Portfolio
+# Lily Yu Portfolio
 
 A modern personal portfolio website built with plain HTML, CSS, and JavaScript.
 
